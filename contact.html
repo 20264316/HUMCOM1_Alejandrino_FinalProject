@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | From Notepad to the Web</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <p class="brand">From Notepad to the Web</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html" class="current">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Contact</h1>
+      <p>Have a question about a lesson? Send me a message.</p>
+
+      <form id="contact-form">
+        <fieldset>
+          <legend>Your message</legend>
+
+          <label for="fullname">Name</label>
+          <input type="text" id="fullname" name="fullname" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <input type="submit" value="Send">
+        </fieldset>
+      </form>
+
+      <p id="thanks"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Ralph Miguel D. Alejandrino · IAA1 · HUMCOM1</p>
+    <p>Photos and video: my own.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
